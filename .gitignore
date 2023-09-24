@@ -1,18 +1,5 @@
 # Node modules
 node_modules/
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor directories
-.idea/
-.vscode/
-*.swp
-*.swo
-
 # Cache and temporary files
-.cache/
-.tmp/
 .DS_Store  # macOS file
