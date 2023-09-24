@@ -12,22 +12,7 @@ yarn-error.log*
 *.swp
 *.swo
 
-# Build directory (where Webpack, Babel, or other tools put transpiled or built code)
-dist/
-build/
-docs/  # if you are using this as a build output directory, as it seems from your previous messages
-
 # Cache and temporary files
 .cache/
 .tmp/
 .DS_Store  # macOS file
-
-# Environment configuration
-.env
-.env.local
-.env.*.local
-
-# Other
-*.log
-*.tgz
-.pnpm-debug.log*
