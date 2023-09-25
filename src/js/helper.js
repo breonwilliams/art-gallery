@@ -16,3 +16,4 @@ library.add(far, fab);
 
 
 import './photoswipe/init';
+import './pageloader/init';
