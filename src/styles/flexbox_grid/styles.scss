@@ -8,6 +8,20 @@
     .flex-col {
         flex: 23%;
         max-width: 25%;
+        a {
+            width: 100%; /* or any other width */
+            padding-top: 75.25%; /* 9/16 = 0.5625, hence 56.25% */
+            position: relative;
+            display: block;
+            overflow: hidden;
+            border-radius: 4px;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
         @media only screen and (max-width: 768px) {
             flex: 48%;
             max-width: 50%;
@@ -15,12 +29,6 @@
         @media only screen and (max-width: 576px) {
             flex: 100%;
             max-width: 100%;
-        }
-        img {
-            border-radius: 4px;
-            aspect-ratio: 1.2 / 1;
-            max-height: 100%;
-            object-fit: cover;
         }
     }
 }
